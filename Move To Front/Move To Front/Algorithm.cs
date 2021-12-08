@@ -1,9 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
-namespace CSharp
+namespace Move_To_Front
 {
-    class MoveToFront
+    class Algorithm
     {
         private string CreateAlphabet(string str)
         {
@@ -103,18 +106,6 @@ namespace CSharp
             string reverse = ReverseConvertion(array, alphabet);
             Console.WriteLine("Обратно: " + reverse);
             Console.WriteLine("Совпадение строк: " + (reverse == toConvert));
-        }
-    }
-
-    class Program
-    {
-        static void Main()
-        {
-            MoveToFront MTF = new MoveToFront();
-
-            string task = "baccaaabaaacccbbbbb";
-            MTF.PrintTransformation(task);
-            Console.ReadKey();
         }
     }
 }

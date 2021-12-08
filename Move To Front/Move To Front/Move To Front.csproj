@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0ACF9093-9221-40C7-BCD8-8C9990FF7E19}</ProjectGuid>
+    <ProjectGuid>{8DB1F41E-3F44-4FED-8196-E9A5454D1F29}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>MoveToFront</RootNamespace>
-    <AssemblyName>MoveToFront</AssemblyName>
+    <RootNamespace>Move_To_Front</RootNamespace>
+    <AssemblyName>Move To Front</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Algorithm.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
