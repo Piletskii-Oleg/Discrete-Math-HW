@@ -35,22 +35,22 @@ namespace Move_To_Front
         private int[] DirectConversion(string str)
         {
             int[] resultArray = new int[str.Length];
-            StringBuilder resultString = new StringBuilder("");
+            StringBuilder helper = new StringBuilder("");
             int position;
 
             for (int i = 0; i < str.Length; i++)
             {
                 position = 0;
 
-                for (int j = 0; j < resultString.Length; j++)
+                for (int j = 0; j < helper.Length; j++)
                 {
-                    if (str[i] == resultString[j])
+                    if (str[i] == helper[j])
                     {
                         position = j + 1;
                         resultArray[i] = position;
 
-                        resultString.Remove(j, 1);
-                        resultString.Insert(0, str[i]);
+                        helper.Remove(j, 1);
+                        helper.Insert(0, str[i]);
 
                         break;
                     }
@@ -58,7 +58,7 @@ namespace Move_To_Front
 
                 if (position == 0)
                 {
-                    resultString.Insert(0, str[i]);
+                    helper.Insert(0, str[i]);
                     resultArray[i] = 0;
                 }
             }

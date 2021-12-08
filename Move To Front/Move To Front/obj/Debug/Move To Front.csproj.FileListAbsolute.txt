@@ -5,3 +5,10 @@ C:\Users\Oleg\source\repos\Move To Front\Move To Front\obj\Debug\Move To Front.c
 C:\Users\Oleg\source\repos\Move To Front\Move To Front\obj\Debug\Move To Front.csproj.CoreCompileInputs.cache
 C:\Users\Oleg\source\repos\Move To Front\Move To Front\obj\Debug\Move To Front.exe
 C:\Users\Oleg\source\repos\Move To Front\Move To Front\obj\Debug\Move To Front.pdb
+C:\Users\Oleg\Documents\GitHub\Discrete-Math-HW\Move To Front\Move To Front\bin\Debug\Move To Front.exe.config
+C:\Users\Oleg\Documents\GitHub\Discrete-Math-HW\Move To Front\Move To Front\bin\Debug\Move To Front.exe
+C:\Users\Oleg\Documents\GitHub\Discrete-Math-HW\Move To Front\Move To Front\bin\Debug\Move To Front.pdb
+C:\Users\Oleg\Documents\GitHub\Discrete-Math-HW\Move To Front\Move To Front\obj\Debug\Move To Front.csproj.AssemblyReference.cache
+C:\Users\Oleg\Documents\GitHub\Discrete-Math-HW\Move To Front\Move To Front\obj\Debug\Move To Front.csproj.CoreCompileInputs.cache
+C:\Users\Oleg\Documents\GitHub\Discrete-Math-HW\Move To Front\Move To Front\obj\Debug\Move To Front.exe
+C:\Users\Oleg\Documents\GitHub\Discrete-Math-HW\Move To Front\Move To Front\obj\Debug\Move To Front.pdb
