@@ -71,7 +71,7 @@ namespace CSharp
             for (int i = 0; i < array.Length; i++)
             {
                 if (array[i] == 0)
-                { 
+                {
                     helper.Insert(0, str[position]);
                     resultString.Append(str[position]);
                     position++;
@@ -107,7 +107,7 @@ namespace CSharp
     }
 
     class Program
-    { 
+    {
         static void Main()
         {
             MoveToFront MTF = new MoveToFront();
@@ -118,4 +118,3 @@ namespace CSharp
         }
     }
 }
-
